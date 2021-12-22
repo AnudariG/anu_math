@@ -1,0 +1,13 @@
+body {
+  padding: 2rem;
+}
+
+button{
+  padding: 0.5rem;
+  margin: 1rem;
+}
+
+#lightBulb {
+  width: 7em;
+  padding-left: 3rem;
+}

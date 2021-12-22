@@ -1,0 +1,72 @@
+/*css file - home page*/
+/*Google Fonts - Noto Sans KR, Dancing Script, Indie Flower*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Indie+Flower&family=Noto+Sans+KR:wght@100;400;700&display=swap');
+
+
+/*A*/
+a{
+  text-decoration: none;
+}
+
+/*B*/
+body{
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+/*C*/
+.current-pg{
+  text-decoration: overline;
+}
+
+/*H*/
+h1{
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+  text-align: center;
+}
+
+/*hr design from css-tricks.com*/
+hr{
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+/*M*/
+main{
+  display: grid;
+  grid-gap: 1rem;
+  padding: 15px;
+  
+}
+
+/*N*/
+nav a{
+  text-decoration: none;
+}
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+nav li{
+  list-style: none;
+}
+
+
+/*MEDIA*/
+@media (min-width: 60em){
+  
+}
+
+
+
+
+
+
+
+
+
+

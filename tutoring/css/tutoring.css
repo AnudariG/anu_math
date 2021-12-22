@@ -1,0 +1,183 @@
+/*css file - home page*/
+/*Google Fonts - Noto Sans KR, Dancing Script, Indie Flower*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Indie+Flower&family=Noto+Sans+KR:wght@100;400;700&display=swap');
+
+/*A*/
+a{
+  text-decoration: none;
+}
+
+/*B*/
+body{
+  background-color: #ede7f6;
+  font-family: 'Noto Sans KR', sans-serif;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.bold-label{
+  font-weight: bold;
+}
+
+/*C*/
+.current-pg{
+  text-decoration: overline;
+}
+
+/*F*/
+footer{
+  background-color: #fce4ec;
+  border-top: 0.5rem solid white;
+  padding-left: 1em;
+  padding-bottom: 1em;
+}
+
+form{
+  background-color: #e0f7fa;
+  border-top: 0.5rem solid white;
+  border-radius: 2rem;
+  display: grid;
+  grid-gap: 2rem;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/*H*/
+h1{
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+  text-align: center;
+}
+
+/*hr design from css-tricks.com*/
+hr{
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+/*M*/
+main{
+  display: grid;
+  grid-gap: 1rem;
+  padding: 15px;
+}
+
+/*N*/
+nav a{
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+nav li{
+  list-style: none;
+}
+
+nav ul a:hover {
+  color: #9575cd;
+}
+
+.submit-button{
+  background-color: #c5cae9;
+  border: none;
+  border-radius: 2rem;
+  color: black;
+  font-size: 1rem;
+  padding: 0.5em;
+  max-width: 45%;
+}
+
+.submit-button:hover{
+  background-color: #9fa8da; 
+  border-top: 3px solid white;
+}
+
+input{
+  border-color: #c5cae9;
+}
+
+/*MEDIA*/
+@media (min-width: 60em){
+  body{
+    font-size: 1.2rem;
+  }
+
+  form{
+    max-width: 50%;
+  }
+
+  h1{
+    font-size: 4rem;
+  }
+
+  h2{
+    font-size: 2rem;
+  }
+
+  nav a{
+    font-size: 1.1rem;
+  }
+}
+
+/*Custom Alert For Submit Button*/
+.alert-heading{
+  background-color: #a5d6a7;
+  border-left: 0.3rem solid white;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  font-size: 1.5rem;
+}
+
+#custom-alert{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+
+}
+
+#confirm-button{
+  border: none;
+  border-radius: 15px;
+  font-size: 1rem;
+  padding: 0.5em;
+  width: 100px;
+  background-color: white;
+}
+
+#confirm-button:hover{
+  background-color: #eeeeee;
+  border: 2px solid white;
+}
+
+#box{
+  border-radius: 2rem;
+  background-color: #e8f5e9;
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  height: 170px;
+  width: 500px;
+  text-align: center;
+  box-shadow: 2px 2px 8px grey;
+}
+
+#userinfo-main{
+  padding-left: 4rem;
+  
+}
+
+
+
+
+
+

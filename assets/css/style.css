@@ -1,0 +1,143 @@
+/*css file - home page*/
+/*Google Fonts - Noto Sans KR, Dancing Script, Indie Flower*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Indie+Flower&family=Noto+Sans+KR:wght@100;400;700&display=swap');
+
+
+/*A*/
+a{
+  text-decoration: none;
+}
+
+/*B*/
+body{
+  font-family: 'Noto Sans KR', sans-serif;
+  background-color: #ede7f6;
+  margin: 0;
+  font-size: 1rem;
+}
+
+/*C*/
+.current-pg{
+  text-decoration: overline;
+}
+
+/*F*/
+footer{
+  background-color: #fce4ec;
+  border-top: 0.5rem solid white;
+  padding-left: 1em;
+  padding-bottom: 1em;
+}
+
+/*H*/
+h1{
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+  text-align: center;
+}
+
+/*hr design from css-tricks.com*/
+hr{
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+/*M*/
+main{
+  display: grid;
+  grid-gap: 1rem;
+  padding: 2rem;
+  margin: 1em;
+}
+
+hr.main-hr{
+  border-top: 2px solid black;
+}
+
+/*N*/
+nav a{
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+nav li{
+  list-style: none;
+}
+
+.yt-logo{
+  max-width: 5em;
+  padding: 0.6rem;
+  border: 3px solid white;
+  border-radius: 1rem;
+}
+
+.gmail-icon{
+  max-height: 2em;
+  max-height: auto;
+  padding: 0.6rem;
+  border: 3px solid white;
+  border-radius: 2rem;
+}
+
+nav ul a:hover {
+  color: #9575cd;
+}
+
+.gmail-icon:hover{
+  background-color: #e1f5fe;
+}
+
+.yt-logo:hover{
+  background-color: #e1f5fe;
+}
+
+.tutoring-div{
+  border: 0.5rem solid white;
+  border-radius: 2rem;
+  background-color: #fce4ec;
+  padding: 1rem;
+  padding-left: 2rem;
+}
+
+/*MEDIA*/
+@media (min-width: 60em){
+  body{
+    font-size: 1.2rem;
+  }
+
+  h1{
+    font-size: 4rem;
+  }
+
+  h2{
+    font-size: 2rem;
+  }
+
+  nav a{
+    font-size: 1.1rem;
+  }
+
+  .opinion-pg-main{
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+

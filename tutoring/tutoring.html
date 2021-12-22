@@ -1,0 +1,127 @@
+<!-- Tutoring Page -->
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <title>Tutoring with Anu</title>
+	<meta name="Author" content="Anudari Gereltod"/>
+	<link rel="stylesheet" type="text/css" href="css/tutoring.css">
+</head>
+<body>
+<!-- head -->
+<header>
+ <h1>Anudari G</h1>
+  <!-- nav-bar -->
+  <nav>
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../resume/resume.html">Resume</a></li>
+      <li><a href="projects/projects.html">Projects</a></li>
+      <li><a class="current-pg" href="tutoring.html">Math Tutoring</a></li>
+      <li><a href="/opinion/opinion.html">Opinion</a></li>
+    </ul>
+  </nav>
+  <hr>
+</header>
+
+<!-- Custom Alert Button -->
+<div id="custom-alert">
+  <div id="box">
+    <div class="alert-heading">
+      Submitted!
+    </div>
+    <div class="message">
+      <p>Thank you! Please allow 2-3 business days for email response.</p>
+      <button type="button" id="confirm-button" onclick="hideAlert()">Got it!</button>
+    </div>
+  </div>
+</div>
+
+<!-- main -->
+<main>
+ <div>
+   <h2>College Courses:</h2>
+   <ul>
+     <li>College Algebra</li>
+     <li>Trigonometry</li>
+     <li>Pre-Calculus</li>
+     <li>Calculus Ⅰ</li>
+     <li>Calculus Ⅱ</li>
+     <li>Linear Algebra</li>
+   </ul>
+ </div>
+ <div>
+   <h3>Fill out the form to get tutoring</h3>
+   <form action="userinfo.html" method="GET">
+      <div>
+        <label class="bold-label" for="full_name">Full name:</label><br>
+        <input type="text" id="full_name" name="Full name" placeholder="First and Last name" required><br>
+      </div>
+
+      <div>
+        <label class="bold-label" for="email">Enter your email:</label> <br>
+        <input type="email" id="email" name="Email" placeholder="mike@gmail.com" required>
+      </div>
+
+      <div>
+        <label class="bold-label" for="last_math_class">Last math class (College or High School):</label><br>
+        <input type="text" id="last_math_class" name="Last Math Class" placeholder="Agebra">
+      </div>
+
+      <div>
+        <strong> Choose the class you need tutoring on:</strong> <br>
+        <input type="radio" id="algebra" name="tutoring-choice">
+        <label for="algebra">Algebra</label><br>
+
+        <input type="radio" id="trig" name="tutoring-choice">
+        <label for="trig">Trigonometry</label><br>
+
+        <input type="radio" id="pre-calc" name="tutoring-choice">
+        <label for="pre-calc">Pre-calculus</label><br>
+
+        <input type="radio" id="calc1" name="tutoring-choice">
+        <label for="calc1">Calculus Ⅰ</label><br>
+
+        <input type="radio" id="calc2" name="tutoring-choice">
+        <label for="calc2">Calculus Ⅱ</label><br>
+
+        <input type="radio" id="calc3" name="tutoring-choice">
+        <label for="calc2">Calculus Ⅲ</label><br>
+
+        <input type="radio" id="linear-alg" name="tutoring-choice">
+        <label for="linear-alg">Linear Algebra</label><br>
+
+        (only given classes are available) <br>
+      </div>
+      <button class="submit-button" type="submit" >Submit</button>
+
+    </form>
+ </div>
+  
+</main>
+
+<!-- footer -->
+<footer>
+  <div>
+    <h4>Contact me:</h4>
+    Anudari Gereltod <br>
+    <em>anulovemath@gmail.com</em> <br>
+    <a href="mailto:anulovemath@gmail.com">click to email me</a>
+  </div>
+  
+</footer>
+
+<!-- script -->
+<script src="scripts/app.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
